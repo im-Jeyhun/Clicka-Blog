@@ -1,0 +1,50 @@
+﻿@using ClickaholicWebApp.BLL.DomainModel.Entities
+@model List<Contact>
+
+<div class="col-lg-12">
+    <div class="row justify-content-end">
+        <div class="">
+           Look All Contacts
+        </div>
+    </div>
+</div>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Contacts</h4>
+        </div><!--end card-header-->
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped mb-0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>PhoneNumber</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var contact in Model)
+                        {
+                            <tr>
+                                <td>@contact.Name</td>
+                                <td>@contact.Email</td>
+                                <td>@contact.PhoneNumber</td>
+                               
+                                <td class="text-end">
+                                    <a asp-route="admin-contact-item" asp-route-id="@contact.Id"><i class="las la-pen text-secondary font-16"></i></a>
+                                    <form method="POST" asp-route="admin-contact-delete" asp-route-id="@contact.Id" id="contact-form-@contact.Id" ></form>
+                                    <button type="submit" form="contact-form-@contact.Id">
+                                        <i class="las la-trash-alt text-secondary font-16"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table><!--end /table-->
+            </div><!--end /tableresponsive-->
+        </div><!--end card-body-->
+    </div><!--end card-->
+</div>

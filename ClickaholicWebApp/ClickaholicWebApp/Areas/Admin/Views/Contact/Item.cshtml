@@ -1,0 +1,26 @@
+﻿@using ClickaholicWebApp.BLL.DomainModel.Entities
+@model Contact
+
+<div class="col-lg-12">
+    <div class="row justify-content-end">
+        <div class="">
+            <a asp-route="admin-blog-add" class="btn btn-secondary">Add new blog</a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Contact Item</h4>
+        </div><!--end card-header-->
+        <div class="card-body">
+            <div class="table-responsive">
+                <p>Contacter Name : @Model.Name</p>
+                <p>Contacter Email : @Model.Email</p>
+                <p>Contacter Phone : @Model.PhoneNumber</p>
+                <p>Message</p>
+                <p> @Model.Message</p>
+            </div><!--end /tableresponsive-->
+        </div><!--end card-body-->
+    </div><!--end card-->
+</div>

@@ -1,0 +1,89 @@
+﻿@using ClickaholicWebApp.BLL.ServiceLayer.Dtos.Admin.Blog
+@model BlogItem
+<section class="blog-single">
+    <div class="container">
+        <div class="main-contant">
+            <div class="row">
+                <div class="col-sm-12">
+                    <figure class="figure">
+                        <img src="~/@Model.ImageUrl" class="figure-img img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">
+                            <div class="btn-group">
+                                <a href="single.html" class="btn btn-danger">Ladakh, India</a>
+                                <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
+                            </div>
+                            <span>Posted on : 23.05.2024</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-12">
+                    <h3>@Model.Title</h3>
+
+                    <p>@Model.Description</p>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Suggested Posts to Read</h2>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var blog in Model.SuggestedBlogs)
+                {
+
+                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-6 box-2">
+                        <img src="~/@blog.ImageUrl" class="img-fluid">
+                        <div class="overlay">
+                            <div class="text">@blog.Title</div>
+                            <div class="count">45</div>
+                        </div>
+                    </a>
+                }
+
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Read Comments Posted</h2>
+                </div>
+            </div>
+            <form class="form" method="post" asp-route="client-blog-comment-post" asp-route-blogId="@Model.Id">
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <input asp-for="@Model.CommentModel.CommenterName" type="text" class="form-control" placeholder="Enter your name  " required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input asp-for="@Model.CommentModel.CommenterEmail" type="email" class="form-control" placeholder=" Enter your email" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input asp-for="@Model.CommentModel.CommenterWebSite" type="text" class="form-control" placeholder=" Enter your website" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <textarea asp-for="@Model.CommentModel.Content" class="form-control" rows="5" placeholder="Write your message" required></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit Comment</button>
+            </form>
+            <div class="post">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Comments Posted </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <div class="col1">
+                                <p><strong><span>@comment.CreateTime</span>@comment.CommenterName</strong>@comment.Content</p>
+                            </div>
+                        </div>
+
+                    }
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

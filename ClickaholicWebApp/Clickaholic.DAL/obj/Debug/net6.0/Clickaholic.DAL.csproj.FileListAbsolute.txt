@@ -1,0 +1,17 @@
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.csproj.AssemblyReference.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.AssemblyInfoInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.AssemblyInfo.cs
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\Clickaholic.DAL.deps.json
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\Clickaholic.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\Clickaholic.DAL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.BLL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.BLL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaho.8C93FE85.Up2Date
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\refint\Clickaholic.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ref\Clickaholic.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\Clickaholic.DAL.runtimeconfig.json
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaholic.DAL.genruntimeconfig.cache

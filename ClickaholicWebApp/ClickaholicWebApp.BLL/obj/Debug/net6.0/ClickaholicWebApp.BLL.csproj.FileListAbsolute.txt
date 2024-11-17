@@ -1,0 +1,12 @@
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.csproj.AssemblyReference.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.AssemblyInfoInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.AssemblyInfo.cs
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\bin\Debug\net6.0\ClickaholicWebApp.BLL.deps.json
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\bin\Debug\net6.0\ClickaholicWebApp.BLL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\bin\Debug\net6.0\ClickaholicWebApp.BLL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\refint\ClickaholicWebApp.BLL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ClickaholicWebApp.BLL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\ClickaholicWebApp.BLL\obj\Debug\net6.0\ref\ClickaholicWebApp.BLL.dll

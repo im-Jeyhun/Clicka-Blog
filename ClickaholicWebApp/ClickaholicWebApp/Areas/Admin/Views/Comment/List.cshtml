@@ -1,0 +1,52 @@
+﻿@using ClickaholicWebApp.BLL.ServiceLayer.Dtos.Admin.Comments
+@model CommentItem
+
+<div class="col-lg-12">
+    <div class="row justify-content-end">
+        <div class="">
+            <a asp-route="admin-comment-add" asp-route-blogId="@Model.BlogId" class="btn btn-secondary">Add new comment</a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Comments</h4>
+        </div><!--end card-header-->
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped mb-0">
+                    <thead>
+                        <tr>
+                            <th>Commenter Name</th>
+                            <th>Commenter Email</th>
+                            <th>Commenter WebSite</th>
+                            <th>Comment Status</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var comment in Model.Comments)
+                        {
+                            <tr>
+                                <td>@comment.CommenterName</td>
+                                <td>@comment.CommenterEmail</td>
+                                <td>@comment.CommenterWebSite</td>
+                                <td>@(comment.IsAccepted == true ? "Published" : "Pending") </td>
+
+                                <td class="text-end">
+                                    <a asp-route="admin-comment-update" asp-route-id="@comment.Id"><i class="las la-pen text-secondary font-16"></i></a>
+                                    <form method="POST" asp-route="admin-comment-delete" asp-route-id="@comment.Id" asp-route-blogId="@comment.BlogId" id="comment-form-@comment.Id"></form>
+                                    <button type="submit" form="comment-form-@comment.Id">
+                                        <i class="las la-trash-alt text-secondary font-16"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table><!--end /table-->
+            </div><!--end /tableresponsive-->
+        </div><!--end card-body-->
+    </div><!--end card-->
+</div>

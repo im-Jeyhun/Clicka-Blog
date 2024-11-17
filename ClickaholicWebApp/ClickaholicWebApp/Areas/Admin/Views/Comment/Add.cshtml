@@ -1,0 +1,43 @@
+﻿@using ClickaholicWebApp.BLL.ServiceLayer.Dtos.Admin.Comments
+@model CommentAdd
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Comments</h4>
+            </div>
+            <div class="card-body">
+                <div class="general-label">
+                    <form method="POST" asp-route="admin-comment-add" asp-route-blogId ="@Model.BlogId" enctype="multipart/form-data">
+                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                        <div class="form-group">
+                            <label>Commenter Name</label>
+                            <input multiple asp-for="CommenterName" class="form-control">
+                            <span asp-validation-for="CommenterName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Commenter Email</label>
+                            <input multiple asp-for="CommenterEmail" class="form-control">
+                            <span asp-validation-for="CommenterEmail" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Commenter WebSite</label>
+                            <input multiple asp-for="CommenterWebSite" class="form-control">
+                            <span asp-validation-for="CommenterWebSite" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Commenter Email</label>
+                            <input multiple asp-for="Content" class="form-control">
+                            <span asp-validation-for="Content" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div><!--end card-body-->
+        </div><!--end card-->
+    </div>
+</div>
+

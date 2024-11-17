@@ -1,0 +1,46 @@
+﻿@using ClickaholicWebApp.BLL.ServiceLayer.Dtos.Admin.Photograph
+@model List<PhotographList>
+
+<div class="col-lg-12">
+    <div class="row justify-content-end">
+        <div class="">
+            <a asp-route="admin-photograph-add" class="btn btn-secondary">Add new photograph</a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Photographies</h4>
+        </div><!--end card-header-->
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped mb-0">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Image</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var photograph in Model)
+                        {
+                            <tr>
+                                <td>@photograph.Description</td>
+                                <td><img width="20%" src="~/@photograph.ImageUrl" /></td>
+                                <td class="text-end">
+                                    <a asp-route="admin-photograph-update" asp-route-id="@photograph.Id"><i class="las la-pen text-secondary font-16"></i></a>
+                                    <form method="POST" asp-route="admin-photograph-delete"  asp-route-id="@photograph.Id" id="photograph-form-@photograph.Id"></form>
+                                    <button type="submit" form="photograph-form-@photograph.Id">
+                                        <i class="las la-trash-alt text-secondary font-16"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table><!--end /table-->
+            </div><!--end /tableresponsive-->
+        </div><!--end card-body-->
+    </div><!--end card-->
+</div> 

@@ -1,0 +1,17 @@
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.csproj.AssemblyReference.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.AssemblyInfoInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.AssemblyInfo.cs
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.DAL.deps.json
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.DAL.runtimeconfig.json
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.DAL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.BLL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\bin\Debug\net6.0\ClickaholicWebApp.BLL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\Clickaho.4A7DDAB8.Up2Date
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\refint\ClickaholicWebApp.DAL.dll
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.pdb
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ClickaholicWebApp.DAL.genruntimeconfig.cache
+C:\Users\jeyhun.hajiyev\source\repos\ClickaholicWebApp\Clickaholic.DAL\obj\Debug\net6.0\ref\ClickaholicWebApp.DAL.dll
